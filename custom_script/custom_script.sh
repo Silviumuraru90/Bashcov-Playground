@@ -3,42 +3,38 @@
 echo "=============================== START of CORE script: custom_script.sh ================================="
 
 # :nocov:
-
 echo "This is NOT covered by Bashcov"
-
 # :nocov:
 
-function log1(){
+function log1() {
 	echo "OUTPUT of FUNCTION 1"
 }
 
-function log2(){
+function log2() {
 	echo "OUTPUT of FUNCTION 2"
 	echo "OUTPUT of FUNCTION 2"
 	echo "OUTPUT of FUNCTION 2"
 }
 
-function log3(){
+function log3() {
 	echo "OUTPUT of FUNCTION 3"
 }
 
 # :nocov:
-
-function log4(){
+function log4() {
 	echo "OUTPUT of FUNCTION 4 is EXCLUDED from Bashcov's coverage"
 }
-
 # :nocov:
 
-function log5(){
+function log5() {
 	echo "OUTPUT of FUNCTION 5"
 }
 
-function log6(){
+function log6() {
 	echo "OUTPUT of FUNCTION 6"
 }
 
-function log7(){
+function log7() {
 	echo "OUTPUT of FUNCTION 7"
 }
 
