@@ -1,4 +1,4 @@
-# My_Custom_Project
+# Bashcov Playground
 
 Custom Project to test Bashcov on.
 
